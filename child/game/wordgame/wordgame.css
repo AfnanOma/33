@@ -1,0 +1,136 @@
+/* fdca91
+fefda3
+fdadac
+beebff
+*/
+body, h1, h2, p, div {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+} 
+body {
+    background-color: #B1DAEC; 
+    color: #000000;  
+    font-family: "Arial", sans-serif;
+}
+ 
+body > div {
+    padding: 20px;
+}
+ 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; 
+}
+ 
+div > a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+ 
+body > div {
+    margin: 0 auto;
+    max-width: 600px;
+}
+ 
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 7vh;
+}
+
+.logo img {
+    max-width: 50px;  
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: #259ab7;  
+}
+
+a:hover {
+    color: #3498DB;  
+}
+ 
+.special-link {
+    margin-right: 0;  
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin:   20px 10px;
+    height: 72vh;
+    background-color:#B1DAEC;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+/* Content Title Styling */
+.content h1 {
+    text-align: center;
+    color: #259ab7;
+    margin-bottom: 20px;
+}
+
+/* Choices Styling */
+/* Choices Styling */
+.choices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20%;
+    text-align: center;
+    width: 60%;
+}
+
+.choices button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #E5E5E5;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+    height: 47px;
+}
+
+.level-nav{
+    background-color: #7ca2b3;
+}
+.level-nav-title{
+    margin: auto;
+    font-size: x-large;
+}
